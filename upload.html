@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Video to n8n</title>
+</head>
+<body style="font-family: Arial; padding: 2rem;">
+  <h2>🎥 Upload a Video File to n8n</h2>
+  <form action="https://advivo.app.n8n.cloud/webhook/upload-video" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="video/mp4" required />
+    <br><br>
+    <button type="submit">Upload Video</button>
+  </form>
+</body>
+</html>
